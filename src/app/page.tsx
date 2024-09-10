@@ -3,7 +3,7 @@ import Image from 'next/image'
 const page = () => {
   return (
     <div><figure className="bg-blue-200 rounded-xl p-8 dark:bg-slate-800">
-    <image className="w-24 h-24 rounded-full mx-auto" src="/rabia.png" alt="" width="384" height="512"/>
+    <Image className="w-24 h-24 rounded-full mx-auto" src="/rabia.png" alt="" width="384" height="512"/>
     <div className="pt-6 space-y-4">
       <blockquote>
         <p className="text-lg font-medium">
